@@ -31,7 +31,7 @@ twitter_username:
 github_username: tyxie2003
 
 # Build settings
-theme: jekyll-theme-minimal
+theme: minima
 plugins:
   - jekyll-feed
 
