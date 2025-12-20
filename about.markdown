@@ -1,10 +1,19 @@
 ---
-layout: page
+layout: default
 title: About
 permalink: /about/
 ---
+# About
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Welcome to my homepage! I'm now a physics master's student at McGill University. 
+
+My research interests include cosmology and particle physics. 
+Feel free to explore and connect with me!
+
+## Contact
+tyxie2003 at gmail.com
+
+<!-- This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
 
 You can find the source code for Minima at GitHub:
 [jekyll][jekyll-organization] /
@@ -15,4 +24,4 @@ You can find the source code for Jekyll at GitHub:
 [jekyll](https://github.com/jekyll/jekyll)
 
 
-[jekyll-organization]: https://github.com/jekyll
+[jekyll-organization]: https://github.com/jekyll -->

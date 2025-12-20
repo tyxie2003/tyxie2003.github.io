@@ -18,13 +18,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Tianyi's homepage
+title: Tianyi Xie
 email: tyxie2003@gmail.com
 description: >- # this means to ignore newlines until "baseurl:" It will appear in your document head meta (forGoogle search results) and in your feed.xml site description.
-  My name is Tianyi Xie. Welcome to my personal website!
-  This is my space to share my thoughts and projects.
-  I am passionate about cosmology and particle physics.
-  Feel free to explore and connect with me!
+  Updates on my research papers, study notes, and personal reflections. Feel free to leave a comment!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
@@ -37,7 +34,14 @@ plugins:
   - jekyll-remote-theme # add this line to the plugins list if you already have one
   - jekyll-theme-minimal
 
-
+defaults:
+  - scope:
+      path: "" # Applies to all files
+      type: "posts" # Applies only to posts
+    values:
+      author: "Anonymous"
+      categories:
+        - Uncategorized
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

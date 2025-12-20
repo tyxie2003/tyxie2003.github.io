@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Posts by Anonymous"
+---
+
+<h1>Posts by Anonymous</h1>
+<ul>
+  {% for post in site.posts %}
+    {% if post.author == "Anonymous" %}
+      <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> - <time datetime="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time>
+      </li>
+    {% endif %}
+  {% endfor %}
+</ul>

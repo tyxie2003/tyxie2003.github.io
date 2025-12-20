@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<!-- <small>{{ page.date | date: "%-d %B %Y" }}</small> -->
+<info>
+    <time datetime="{{ page.date }}">{{ page.date | date: "%-d %B %Y" }}</time> |
+    by <a href="{{ site.baseurl }}/author/{{ page.author | downcase | replace: ' ', '-' }}">{{ page.author }}</a> |
+    Categories: 
+    {% for category in page.categories %}
+        {% unless category == "Uncategorized" %}
+            <a href="{{ site.baseurl }}/category/{{ category | downcase | replace: ' ', '-' }}">{{ category }}</a>
+        {% endunless %}
+    <!-- <a href="{{ site.baseurl }}/category/{{ category | downcase | replace: ' ', '-' }}">{{ category }}</a>{% if forloop.last == false %}, {% endif %} -->
+    {% endfor %} |
+    Tags: 
+    {% for tag in page.tags %}
+        <a href="{{ site.baseurl }}/tag/{{ tag | downcase | replace: ' ', '-' }}">{{ tag }}</a>{% if forloop.last == false %}, {% endif %}
+    {% endfor %}
+</info>
+<h1>{{ page.title }}</h1>
+
+<!-- <p class="view">by {{ page.author | default: site.author }}</p> -->
+
+<div class="post-content">
+{{ content }}
+</div>
+
+
+
+  

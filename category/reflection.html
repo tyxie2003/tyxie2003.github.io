@@ -1,0 +1,15 @@
+---
+layout: default
+title: "Category Archive"
+---
+
+<h1>Posts in Reflect</h1>
+<ul>
+    {% for post in site.posts %}
+      {% if post.categories contains "Reflection" %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a> - <time datetime="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
