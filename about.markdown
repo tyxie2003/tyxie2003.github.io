@@ -5,7 +5,7 @@ permalink: /about/
 ---
 # About
 
-Welcome to my homepage! I'm now a physics master's student at McGill University. 
+Welcome to my homepage! My name is Tianyi Xie (解天懿). I'm now a physics master's student at McGill University. 
 
 My research interests include cosmology and particle physics. 
 Feel free to explore and connect with me!

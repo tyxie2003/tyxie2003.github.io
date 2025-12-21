@@ -28,4 +28,31 @@ layout: default
 
 
 
+<!-- Utterances Comments -->
+<div class="comments-section">
+<h3>Comments</h3>
+<script src="https://utteranc.es/client.js"
+        repo="tyxie2003/tyxie2003.github.io"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
+</div>
+
+<!-- <div class="comments-section">
+    <h3>Comments</h3>
+    <div id="commento"></div>
+    <script defer src="https://cdn.commento.io/js/commento.js"></script>
+</div> -->
+
+<!-- Navigation between posts -->
+<nav class="post-navigation">
+    {% if page.previous.url %}
+        <a class="prev" href="{{ page.previous.url }}">&laquo; {{ page.previous.title }}</a>
+    {% endif %}
+    {% if page.next.url %}
+        <a class="next" href="{{ page.next.url }}">{{ page.next.title }} &raquo;</a>
+    {% endif %}
+</nav>
   
