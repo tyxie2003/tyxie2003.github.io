@@ -2,6 +2,6 @@
 layout: post
 title: "My first post"
 author: "Tianyi Xie" 
-tag: "abc"
+categories: Public
 ---
 Test test test first post! 

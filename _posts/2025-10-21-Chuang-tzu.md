@@ -2,7 +2,7 @@
 layout: post
 title: "庄生晓梦迷蝴蝶"
 author: "Tianyi Xie" 
-categories: "Reading"
+categories: Reading
 ---
 
 > 谈《逍遥游》读后感和现代人如何对待传统文化。

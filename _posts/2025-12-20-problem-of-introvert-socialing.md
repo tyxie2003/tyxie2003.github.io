@@ -2,7 +2,7 @@
 layout: post
 title: "I人社交的难题"
 author: "Tianyi Xie" 
-categories: "Reflection"
+categories: Public Reflection
 ---
 
 > Introvert是一种性格的概括，简单说是内向，复杂说是“从独处而非社交获取能量”。有这种性格的人叫I人。然而，与人打交道将在I人生命中某些节点成为必须攻克的课题。本文从作者自身经历出发，探讨I人社交的难题以及可能的解决之道。

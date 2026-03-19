@@ -2,6 +2,64 @@
 layout: default
 ---
 
+<!-- Override the default header for posts -->
+<script>
+    // Hide the default header content and add post-specific sidebar
+    document.addEventListener('DOMContentLoaded', function() {
+      const header = document.querySelector('header');
+      if (header) {
+        // Add post-specific sidebar content
+        header.innerHTML = `
+          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
+          
+          {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          {% endif %}
+          
+          <p style="color:#afaeae">{{ site.description | default: site.github.project_tagline }}</p>
+  
+          <!-- CATEGORIES section (only on posts) -->
+          <span style="color:#5da164"> CATEGORIES </span>
+          <hr>
+          <ul class="sidebarlist">
+            {% assign all_categories = "" %}
+            {% for post in site.posts %}
+              {% for category in post.categories %}
+                {% unless category == "Public" %}
+                    {% assign all_categories = all_categories | append: category | append: "," %}
+                {% endunless %}                
+              {% endfor %}
+            {% endfor %}
+            {% assign categorieses = all_categories | split: "," | uniq | sort %}
+            {% for category in categorieses %}
+              {% if category != "" %}
+                <li><a href="{{ site.baseurl }}/category/{{ category | downcase | replace: ' ', '-' }}">{{ category }}</a></li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+  
+          <!-- AUTHORS section (only on posts) -->
+          <span style="color:#5da164"> AUTHORS </span>
+          <hr>
+          <ul class="sidebarlist">
+            {% assign authors = site.posts | map: 'author' | uniq | sort %}
+            {% for author in authors %}
+              <li><a href="{{ site.baseurl }}/author/{{ author | downcase | replace: ' ', '-' }}">{{ author }}</a></li>
+            {% endfor %}
+          </ul>
+  
+          {% if site.show_downloads %}
+          <ul class="downloads">
+            <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
+            <li><a href="{{ site.github.tar_url }}">Download <strong>TAR Ball</strong></a></li>
+            <li><a href="{{ site.github.repository_url }}">View On <strong>GitHub</strong></a></li>
+          </ul>
+          {% endif %}
+        `;
+      }
+    });
+  </script>
+
 <!-- <small>{{ page.date | date: "%-d %B %Y" }}</small> -->
 <info>
     <time datetime="{{ page.date }}">{{ page.date | date: "%-d %B %Y" }}</time> |

@@ -2,7 +2,7 @@
 layout: post
 title: "游北京上海"
 author: "Tianyi Xie" 
-categories: "Travel"
+categories: Travel
 ---
 
 毕业那年想不开，折腾到了国外读研。在苦寒之地Montreal挣扎一年，我回到了我阔别已久的家乡——苦寒之地哈尔滨。此时我与父母，已有一年未见，与我好友齐哥和龚哥，已有一年半未见，与我剩下的同学好友，则隔了更久。
