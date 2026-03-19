@@ -15,7 +15,7 @@ categories: Public Travel
 
 <img src="{{ site.baseurl }}/assets/images/mtl1.jpg" alt="Street" style="width: 400px; display: block; margin: 0 auto;">
 
-<img src="{{ site.baseurl }}/assets/images/mtl1.jpg" alt="Cement" style="width: 400px; display: block; margin: 0 auto;">
+<img src="{{ site.baseurl }}/assets/images/mtl2.jpg" alt="Cement" style="width: 400px; display: block; margin: 0 auto;">
 
 正如我说的，散步启发思考，我一发愁，就思考。我在想，我的研究到底能不能做好。两天前，我听报告，突然脑中灵光稍显，我问自己，做研究，思考多一点还是做事（推导，画图等）多一点？如何选择自己应做的事情？怎样有效地问别人问题，由此别人不恼，我还受教？昨天，我又听报告，在想，如何把课题做得交叉？如何有效利用AI？为何我导师帮不到我的研究？这种student project有用吗？如何与prof交谈呢？问题太多，成果太少，今天我被困住，迈不出去学校的脚。
 
