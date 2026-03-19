@@ -9,10 +9,11 @@ layout: default
 [About](/about/)
 
 <ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>({{ post.date | date: "%Y-%m-%d" }})</span>
-    </li>
-  {% endfor %}
-</ul>
+    {% for post in site.posts %}
+      {% if post.categories contains "Public" %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a> - <time datetime="{{ post.date }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
