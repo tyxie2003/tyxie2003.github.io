@@ -2,7 +2,7 @@
 layout: post
 title: "走一条街"
 author: "Tianyi Xie" 
-categories: Travel
+categories: Public Travel
 ---
 
 走路让人发散性地思考，写作让人有条理地思考。我跟导师说今天留在家思考，但我在家也没有思考。我像一个活在套子里的人，有太多事情分心和打断，甚至忘记了思考有多重要。
