@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Usage of Seminar"
+title: "Build your file system"
 author: "Tianyi Xie" 
 categories: Tools
 ---
@@ -54,7 +54,7 @@ Once your file is too much, you found it hard to find, even if you establish fil
 
 The result is, basically you press a shortcut to call the tool, input part of the name of the file wanted, then it quickly matches it and automatically open it for you. It's not hard to accomplish, just a paragraph of bash and a app UI using Automator in MacOS. I (followed AI's advice to) name it QOpen. 
 
-#### Clound settings
+#### Cloud settings
 
 As said, use Zotero + some net disk. Not only for the papers, but also your notes, even codes. However, Zotero keeps each file in a separate folder. So I can't create symlinks of certain folders to where QOpen searches. At the same time, I don't want to symlink the whole Zotero folder, otherwise QOpen will search inside too huge a folder. 
 
