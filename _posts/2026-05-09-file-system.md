@@ -40,7 +40,7 @@ And what's more, your electronic products get broken even faster than your high 
 
 Thus, I developed a way to solve all these drawbacks: 
 
-- Take notes on A4 paper (from printers anywhere) to catch up in courses, or think intuitively on some haunting problems. 
+- Take notes on A4 paper (from printers anywhere) to catch up in courses, or think intuitively on some haunting problems (write a title everytime, and try write less, think more)
 - Punch holes in these A4 papers and collect them by little rings (check KW-trio). Do that after the paper is filled with scratches, so that you don't bring blank paper, and it's always comfortable to write on. 
 - Reorganize and summarize it to Markdown files so that easy to check later. 
 - Use Zotero+Nutshell Netdisk to store the notes in cloud (so you can check it on any library computer once it has Zotero downloaded. )
